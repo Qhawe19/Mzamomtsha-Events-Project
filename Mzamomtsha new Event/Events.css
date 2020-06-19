@@ -1,0 +1,35 @@
+body{
+    padding : 0px;
+    margin : 0px;
+    box-sizing : border-box;
+}
+Events-container{
+   width: 60%; 
+   margin: auto;
+   border: 5px solid blanchedalmond;
+   overflow: hidden;
+   position: relative;
+}
+Events-Slide{
+    display: flex;
+    width: 500%;
+    height: 500px;
+}
+#prevOpt{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+#nextOpt{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
